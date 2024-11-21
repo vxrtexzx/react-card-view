@@ -5,7 +5,6 @@ import "./App.css";
 function App() {
   const [products, setProducts] = useState([]);
 
-  // Fetch data from FakeStore API
   useEffect(() => {
     const fetchData = async () => {
       const response = await fetch("https://fakestoreapi.com/products");
